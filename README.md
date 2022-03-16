@@ -1,2 +1,2 @@
-# PSPpt1
+# PSP
 Problem Solving Problems Part I
