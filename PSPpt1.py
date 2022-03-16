@@ -1,16 +1,22 @@
 #1
-string1 = "Reverse"
-reveresed_string = ''
-for letter in range(len(string1) -1, -1, -1):
-    reveresed_string += string1[letter]
-
-print(reveresed_string)
+def reverse_string():
+    string1 = "Reverse"
+    reveresed_string = ''
+    for letter in range(len(string1) -1, -1, -1):
+        reveresed_string += string1[letter]
+        
+    print(reveresed_string)
+    
+reverse_string()
+   
 
 #2
-string2 = "capital letters"
-capital_string = string2.title()
-print(capital_string)
+def capital_strings():
+    string2 = "capital letters"
+    capital_string = string2.title()
+    print(capital_string)
 
+capital_strings()
 #3
 def compress_string(string3): 
     result = ""
@@ -32,12 +38,14 @@ string3 = "stttrrrrrriinnng"
 print(compress_string(string3))
 
 #4
-string4 = input("Enter string ")
-if (string4 == string4[::-1]):
-    print("This string is a palindrome")
-else:
-    print("This string is not a palindrome")
+def palindrome_string():
+    string4 = input("Enter string ")
+    if (string4 == string4[::-1]):
+        print("This string is a palindrome")
+    else:
+        print("This string is not a palindrome")
 
+palindrome_string()
 
 
 
